@@ -15,60 +15,56 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--cor-branca-principal);
     box-sizing: border-box;
-    width: 100%;
 }
 
-.apresentacao__principal {
+.container__principal {
     background-image: url("./img/Background.png");
     background-repeat: no-repeat;
-    background-position: right; 
-    background-size: cover;
+    background-size: contain;
+    
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
-.apresentacao__principal__conteudo {
-    padding: 10% 5%;
-    width: 32%;
-    height: 50%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 22px;
+.container__principal__conteudo {
+    padding: 15% 5%;
+    
 }
 
-.apresentacao__principal__conteudo__titulo {
+.container__principal__conteudo__titulo {
     font-family: var(--fonte-principal);
     font-weight: var(--fonte-peso-principal);
     font-size: 1.75rem;
 }
 
-.apresentacao__principal__conteudo__botao__azul {
+.container__principal__conteudo__botao__primario {
     background-color: var(--cor-botao-azul);
     border-radius: 8px;
-    width: 80%;
     padding: 16px;
+    display: block;
     font-family: var(--fonte-principal);
     font-weight: var(--fonte-peso-secundaria);
     font-size: 1rem;
+    text-align: center;
     text-decoration: none;
     color: var(--cor-branca-principal);
 }
 
-.apresentacao__principal__conteudo__botao__preto{
+.container__principal__conteudo__botao__secundario {
     border: 1px solid;
     border-radius: 8px;
-    width: 80%;
     padding: 16px;
+    display: block;
     font-family: var(--fonte-principal);
     font-weight: var(--fonte-peso-secundaria);
     font-size: 1rem;
+    text-align: center;
     text-decoration: none;
     color: var(--cor-branca-principal);
 }
 
-.apresentacao__principal__conteudo__paragrafo {
+.container__principal__conteudo__aviso {
     font-family: var(--fonte-principal);
     font-weight: var(--fonte-peso-secundaria);
     font-size: 0.75rem;
