@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+:root {
+    --cor-de-fundo: #00030C;
+    --cor-branca-principal: #FFFFFF;
+    --cor-branca-secundaria: #F9F9F9;
+    --cor-cinza-secundaria: #C0C0C0;
+
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-branca-principal);
+}
+
+.apresentacao__principal {
+    background-image: url("./img/Background.png");
+    background-repeat: no-repeat;
+    background-position: right; 
+
+    height: 100vh;
+}
+
+.apresentacao__principal__titulo {
+    font-family: var(--fonte-principal);
+}
