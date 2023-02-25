@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 :root {
     --cor-de-fundo: #00030C;
     --cor-branca-principal: #FFFFFF;
@@ -15,58 +16,86 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--cor-branca-principal);
     box-sizing: border-box;
+    font-family: var(--fonte-principal);
 }
 
-.container__principal {
-    background-image: url("./img/Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    
+.container{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
-.container__principal__conteudo {
-    padding: 15% 5%;
-    
+.principal {
+    background-image: url("./img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
 }
 
-.container__principal__conteudo__titulo {
-    font-family: var(--fonte-principal);
+.container__principal__conteudo {
+    padding: 0% 10%;
+    text-align: center;
+    width: 75%;
+}
+
+.principal__conteudo__titulo {
     font-weight: var(--fonte-peso-principal);
     font-size: 1.75rem;
+    margin-bottom: 1.5em;
 }
 
-.container__principal__conteudo__botao__primario {
+.principal__conteudo__imagem {
+    margin: 1em 0 3em 0;
+}
+
+.principal__conteudo__botao__primario {
     background-color: var(--cor-botao-azul);
     border-radius: 8px;
     padding: 16px;
     display: block;
-    font-family: var(--fonte-principal);
     font-weight: var(--fonte-peso-secundaria);
     font-size: 1rem;
-    text-align: center;
     text-decoration: none;
     color: var(--cor-branca-principal);
+    margin-bottom: 1em;
 }
 
-.container__principal__conteudo__botao__secundario {
+.principal__conteudo__botao__secundario {
     border: 1px solid;
     border-radius: 8px;
     padding: 16px;
     display: block;
-    font-family: var(--fonte-principal);
     font-weight: var(--fonte-peso-secundaria);
     font-size: 1rem;
     text-align: center;
     text-decoration: none;
     color: var(--cor-branca-principal);
+    margin-bottom: 1em;
 }
 
-.container__principal__conteudo__aviso {
-    font-family: var(--fonte-principal);
+.principal__conteudo__aviso {
     font-weight: var(--fonte-peso-secundaria);
     font-size: 0.75rem;
     color: var(--cor-cinza-secundaria);
+}
+
+.secundario {
+    padding: 0% 10%;
+    align-items: center;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario__conteudo__titulo {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.secundario__conteudo__descricao {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-branca-secundaria);
+    opacity: 0.8;
 }
