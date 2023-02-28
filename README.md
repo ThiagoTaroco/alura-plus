@@ -1,6 +1,7 @@
 # Alura Plus
 >
 Olá, esse é um projeto com objetivo de praticar html e css.
+
 ![image](https://user-images.githubusercontent.com/111652770/221901800-556b5aea-8757-4daf-92f6-68e60d997fa8.png)
 
 ![image](https://user-images.githubusercontent.com/111652770/221902217-5e6602d6-01e9-48bc-b8a7-4399255e8079.png)
@@ -26,4 +27,5 @@ Olá, esse é um projeto com objetivo de praticar html e css.
 ## Feito por:
 >
 Thiago Taroco
+
 Linkedin: [www.linkedin.com/in/thiago-taroco](www.linkedin.com/in/thiago-taroco)
